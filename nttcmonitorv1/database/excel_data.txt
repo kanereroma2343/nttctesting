@@ -1,0 +1,11 @@
+CREATE TABLE `excel_data` (
+  `id` int(11) NOT NULL,
+  `last_name` varchar(255) NOT NULL,
+  `first_name` varchar(255) NOT NULL,
+  `middle_name` varchar(255) NOT NULL,
+  `extension` varchar(255) DEFAULT NULL,
+  `qualification` varchar(255) NOT NULL,
+  `certificate_number` varchar(255) NOT NULL,
+  `date_of_issuance` varchar(255) NOT NULL,
+  `validity` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
